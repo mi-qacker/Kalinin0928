@@ -4,14 +4,14 @@
 <form class="p-2" [formGroup]="formStudent" (ngSubmit)='onAddStudent()'>
   <div class="my-3 row">
     <h3>ФИО</h3>
-    <div class="mb-3 col-6">
+    <div class="mb-3 col-md-6 col-sm-12">
       <label for="surname" class="form-label">Фамилия</label>
       <input type="text" class="form-control" placeholder="Фамилия" formControlName="surname"
         [ngClass]="{'is-valid': formStudent.controls['surname'].valid}">
       <div class="form-text">Обязательное поле. Не более 30 символов.</div>
     </div>
 
-    <div class="mb-3 col-6">
+    <div class="mb-3 col-md-6 col-sm-12">
       <label for="name" class="form-label">Имя</label>
       <input type="text" class="form-control" placeholder="Имя" formControlName="name"
         [ngClass]="{'is-valid': formStudent.controls['name'].valid}">
@@ -28,14 +28,14 @@
 
   <div class="my-3 row">
     <h3>Контакты и дата рождения</h3>
-    <div class="mb-3 col-6">
+    <div class="mb-3 col-md-6 col-sm-12">
       <label for="phone" class="form-label">Телефон</label>
       <input type="text" class="form-control" placeholder="Телефон" formControlName="phone"
         [ngClass]="{'is-valid': formStudent.controls['phone'].valid}">
       <div class="form-text">Обязательное поле. Введите в формате +71234567890.</div>
     </div>
 
-    <div class="mb-3 col-6">
+    <div class="mb-3 col-md-6 col-sm-12">
       <label for="email" class="form-label">Email</label>
       <input type="text" class="form-control" placeholder="Email" formControlName="email"
         [ngClass]="{'is-valid': formStudent.controls['email'].valid}">
@@ -52,14 +52,14 @@
 
   <div class="my-3 row">
     <h3>Информация о направлении</h3>
-    <div class="mb-3 col-6">
+    <div class="mb-3 col-md-6 col-sm-12">
       <label for="group" class="form-label">Группа</label>
       <input type="text" class="form-control" placeholder="Группа" formControlName="group"
         [ngClass]="{'is-valid': formStudent.controls['group'].valid}">
       <div class="form-text">Обязательное поле. Введите в формате 111-111</div>
     </div>
 
-    <div class="mb-3 col-6">
+    <div class="mb-3 col-md-6 col-sm-12">
       <label for="specialization" class="form-label">Направление подгоовки</label>
       <input type="text" class="form-control" placeholder="Направление подгоовки" formControlName="specialization"
         [ngClass]="{'is-valid': formStudent.controls['specialization'].valid}">

@@ -3,15 +3,15 @@
 </div>
 
 <div class="my-2 row">
-  <div class="mb-3 col-4">
+  <div class="mb-3 col-md-4 col-sm-12">
     <label for="surname" class="form-label">Фамилия</label>
     <input type="text" class="form-control" placeholder="Фамилия" [(ngModel)]="surname">
   </div>
-  <div class="mb-3 col-4">
+  <div class="mb-3 col-md-4 col-sm-12">
     <label for="surname" class="form-label">Группа</label>
     <input type="text" class="form-control" placeholder="Группа" [(ngModel)]="group">
   </div>
-  <div class="mb-3 col-4">
+  <div class="mb-3 col-md-4 col-sm-12">
     <label for="surname" class="form-label">Направление</label>
     <input type="text" class="form-control" placeholder="Направление" [(ngModel)]="specialization">
   </div>
@@ -19,6 +19,6 @@
 
 <div class="row">
   <button class="btn btn-secondary my-2" (click)="getStudents()">Обновить</button>
-  <app-student-card class="col-6" *ngFor="let student of studentList | filter: surname: group: specialization"
+  <app-student-card class="col-md-6 col-sm-12" *ngFor="let student of studentList | filter: surname: group: specialization"
     [myStudent]="student"></app-student-card>
 </div>
