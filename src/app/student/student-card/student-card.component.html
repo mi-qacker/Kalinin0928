@@ -1,0 +1,12 @@
+<div class="card text-dark bg-light mb-3">
+  <h5 class="card-header">
+    <i class="bi bi-person-circle"></i>
+    {{myStudent.surname}} {{myStudent.name[0]}}.
+    <span *ngIf="myStudent.patronymic">{{myStudent.patronymic[0]}}.</span>
+  </h5>
+  <div class="card-body">
+    <p class="card-text">Група: {{myStudent.group}}</p>
+    <p class="card-text">Направление: {{myStudent.specialization}}</p>
+    <button class="btn btn-success">Редактировать</button>
+  </div>
+</div>

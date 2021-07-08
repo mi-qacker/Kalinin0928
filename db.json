@@ -19,8 +19,30 @@
       "email": "bocha@gmail.com",
       "dateBirth": "2001-06-15",
       "group": "191-323",
-      "specialization": "Сапр",
+      "specialization": "САПР",
       "id": 2
+    },
+    {
+      "surname": "Иванов",
+      "name": "Иван",
+      "patronymic": "Иванвич",
+      "phone": "+79034436576",
+      "email": "ivanov@mail.com",
+      "dateBirth": "2002-02-23",
+      "group": "191-327",
+      "specialization": "РОБОТОТЕХНИКА",
+      "id": 3
+    },
+    {
+      "surname": "Петров",
+      "name": "Петр",
+      "patronymic": null,
+      "phone": "+79093468275",
+      "email": "petrov@rambler.com",
+      "dateBirth": "2001-02-23",
+      "group": "191-321",
+      "specialization": "ВЕБ",
+      "id": 4
     }
   ]
 }

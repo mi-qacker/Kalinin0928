@@ -18,6 +18,7 @@ export class StudentListComponent implements OnInit {
   async getStudents() {
     try {
       this.studentList = await this.httpService.getStudentList();
+      this.studentList.sort((a, b) => { return a.surname < b.surname ? -1 : 1 })
     } catch (error) {
       console.error(error);
     }

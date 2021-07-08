@@ -28,6 +28,7 @@ export class StudentAddComponent implements OnInit {
   async onAddStudent() {
     try {
       let student: Student = this.formStudent.value;
+      student.specialization = student.specialization.toUpperCase();
       await this.httpService.postStudent(student);
       this.router.navigateByUrl('student');
     } catch (error) {
