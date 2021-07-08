@@ -57,4 +57,13 @@ export class StudentEditComponent implements OnInit {
       console.error(error);
     }
   }
+
+  async onDelete() {
+    try {
+      await this.httpService.deleteStudentById(this.id);
+      this.router.navigateByUrl('student');
+    } catch (error) {
+      console.error(error);
+    }
+  }
 }
