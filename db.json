@@ -1,3 +1,26 @@
 {
-  "students": []
+  "students": [
+    {
+      "surname": "Калинин",
+      "name": "Матвей",
+      "patronymic": "Дмитриевич",
+      "phone": "+79066669823",
+      "email": "matvey@mail.ru",
+      "dateBirth": "2001-08-29",
+      "group": "191-323",
+      "specialization": "САПР",
+      "id": 1
+    },
+    {
+      "surname": "Бочарников",
+      "name": "Александр",
+      "patronymic": null,
+      "phone": "+79053439423",
+      "email": "bocha@gmail.com",
+      "dateBirth": "2001-06-15",
+      "group": "191-323",
+      "specialization": "Сапр",
+      "id": 2
+    }
+  ]
 }
