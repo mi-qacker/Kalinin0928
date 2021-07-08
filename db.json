@@ -14,7 +14,7 @@
     {
       "surname": "Бочарников",
       "name": "Александр",
-      "patronymic": null,
+      "patronymic": "",
       "phone": "+79053439423",
       "email": "bocha@gmail.com",
       "dateBirth": "2001-06-15",
@@ -35,7 +35,7 @@
     },
     {
       "surname": "Петров",
-      "name": "Петр",
+      "name": "Алексей",
       "patronymic": null,
       "phone": "+79093468275",
       "email": "petrov@rambler.com",

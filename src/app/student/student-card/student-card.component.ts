@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Student } from 'src/app/shared/interfaces/student.interface';
 
 @Component({

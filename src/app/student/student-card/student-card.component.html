@@ -7,6 +7,6 @@
   <div class="card-body">
     <p class="card-text">Група: {{myStudent.group}}</p>
     <p class="card-text">Направление: {{myStudent.specialization}}</p>
-    <button class="btn btn-success">Редактировать</button>
+    <button class="btn btn-success" [routerLink]="['edit', myStudent.id]">Редактировать</button>
   </div>
 </div>
