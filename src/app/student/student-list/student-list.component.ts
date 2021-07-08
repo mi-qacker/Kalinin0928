@@ -8,7 +8,11 @@ import { StudentHttpService } from 'src/app/shared/services/student-http.service
   styleUrls: ['./student-list.component.css']
 })
 export class StudentListComponent implements OnInit {
-  studentList: Student[] = [];
+  studentList!: Student[];
+  surname: string = "";
+  group: string = "";
+  specialization: string = "";
+
   constructor(private httpService: StudentHttpService) { }
 
   ngOnInit(): void {
