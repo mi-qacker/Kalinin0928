@@ -7,7 +7,10 @@ import { Student } from '../shared/interfaces/student.interface';
 export class FilterPipe implements PipeTransform {
 
   transform(list: Student[], surname: string, group: string, specialization: string): Student[] {
-    return list.filter(student => student.surname.includes(surname) && student.group.includes(group) && student.specialization.includes(specialization));
+    if (!list) { return [] }
+    return list.filter(student =>
+      student.surname.includes(surname) && student.group.includes(group) && student.specialization.includes(specialization)
+    );
   }
 
 }
