@@ -43,6 +43,17 @@
       "group": "191-321",
       "specialization": "ВЕБ",
       "id": 4
+    },
+    {
+      "surname": "Гаркуша",
+      "name": "Федр",
+      "patronymic": "Михайлович",
+      "phone": "+79093497275",
+      "email": "filgeric@rambler.com",
+      "dateBirth": "2001-10-23",
+      "group": "191-323",
+      "specialization": "САПР",
+      "id": 5
     }
   ]
 }
